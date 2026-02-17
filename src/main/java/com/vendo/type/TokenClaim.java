@@ -7,10 +7,10 @@ import lombok.Getter;
 @AllArgsConstructor
 public enum TokenClaim {
 
-    USER_ID_CLAIM("sub"),
-    EMAIL_VERIFIED_CLAIM("email_verified"),
-    ROLES_CLAIM("roles"),
-    STATUS_CLAIM("status");
+    ID("id"),
+    VERIFIED("verified"),
+    ROLES("roles"),
+    STATUS("status");
 
     private final String claim;
 }
