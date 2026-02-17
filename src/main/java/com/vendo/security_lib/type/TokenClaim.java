@@ -1,4 +1,4 @@
-package com.vendo.type;
+package com.vendo.security_lib.type;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

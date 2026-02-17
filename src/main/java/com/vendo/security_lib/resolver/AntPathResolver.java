@@ -1,4 +1,4 @@
-package com.vendo.resolver;
+package com.vendo.security_lib.resolver;
 
 public interface AntPathResolver {
 

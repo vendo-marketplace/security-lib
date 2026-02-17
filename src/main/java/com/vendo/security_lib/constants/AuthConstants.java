@@ -1,4 +1,4 @@
-package com.vendo.constants;
+package com.vendo.security_lib.constants;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
