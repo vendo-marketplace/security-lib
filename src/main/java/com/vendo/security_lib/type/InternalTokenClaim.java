@@ -10,4 +10,7 @@ public enum InternalTokenClaim {
         this.claim = claim;
     }
 
+    public String getClaim() {
+        return claim;
+    }
 }
