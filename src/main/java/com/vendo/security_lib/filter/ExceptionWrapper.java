@@ -1,4 +1,4 @@
-package com.vendo.security_lib.exception;
+package com.vendo.security_lib.filter;
 
 public interface ExceptionWrapper<T> {
 
