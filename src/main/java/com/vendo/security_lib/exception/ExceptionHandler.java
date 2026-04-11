@@ -1,6 +1,6 @@
 package com.vendo.security_lib.exception;
 
-public interface FilterExceptionHandler {
+public interface ExceptionHandler {
 
     void handle(Exception e);
 
