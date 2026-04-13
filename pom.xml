@@ -5,7 +5,7 @@
 
     <groupId>io.github.vendo-marketplace-be</groupId>
     <artifactId>security-lib</artifactId>
-    <version>4.2.1</version>
+    <version>4.3.1</version>
     <packaging>jar</packaging>
 
     <name>security-lib</name>
