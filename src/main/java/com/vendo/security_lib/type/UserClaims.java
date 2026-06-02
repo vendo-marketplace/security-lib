@@ -1,20 +1,21 @@
 package com.vendo.security_lib.type;
 
-public enum UserTokenClaim {
+public enum UserClaims {
 
     ID("id"),
+    EMAIL("email"),
     VERIFIED("verified"),
     ROLES("roles"),
     STATUS("status");
 
     private final String claim;
 
-    UserTokenClaim(String claim) {
+    UserClaims(String claim) {
         this.claim = claim;
     }
 
     public String getClaim() {
-        return this.claim;
+        return claim;
     }
 
 }

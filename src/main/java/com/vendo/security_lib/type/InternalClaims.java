@@ -1,12 +1,12 @@
 package com.vendo.security_lib.type;
 
-public enum InternalTokenClaim {
+public enum InternalClaims {
 
     ROLES("roles");
 
     private final String claim;
 
-    InternalTokenClaim(String claim) {
+    InternalClaims(String claim) {
         this.claim = claim;
     }
 
