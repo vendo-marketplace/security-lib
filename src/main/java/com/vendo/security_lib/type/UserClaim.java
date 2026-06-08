@@ -1,16 +1,21 @@
 package com.vendo.security_lib.type;
 
-public enum InternalClaims {
+public enum UserClaim {
 
-    ROLES("roles");
+    ID("id"),
+    EMAIL("email"),
+    VERIFIED("verified"),
+    ROLES("roles"),
+    STATUS("status");
 
     private final String claim;
 
-    InternalClaims(String claim) {
+    UserClaim(String claim) {
         this.claim = claim;
     }
 
     public String getClaim() {
         return claim;
     }
+
 }
