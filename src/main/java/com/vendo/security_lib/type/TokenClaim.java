@@ -1,6 +1,6 @@
 package com.vendo.security_lib.type;
 
-public enum UserClaim {
+public enum TokenClaim {
 
     ID("id"),
     EMAIL("email"),
@@ -10,7 +10,7 @@ public enum UserClaim {
 
     private final String claim;
 
-    UserClaim(String claim) {
+    TokenClaim(String claim) {
         this.claim = claim;
     }
 

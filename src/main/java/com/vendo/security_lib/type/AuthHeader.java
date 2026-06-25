@@ -1,6 +1,6 @@
 package com.vendo.security_lib.type;
 
-public enum UserHeader {
+public enum AuthHeader {
 
     ID("X-Id"),
     EMAIL("X-Email"),
@@ -10,7 +10,7 @@ public enum UserHeader {
 
     private final String header;
 
-    UserHeader(String header) {
+    AuthHeader(String header) {
         this.header = header;
     }
 
