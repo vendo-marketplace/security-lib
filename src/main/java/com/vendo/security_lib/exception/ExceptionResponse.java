@@ -1,4 +1,4 @@
-package com.vendo.security_lib.exception.response;
+package com.vendo.security_lib.exception;
 
 import java.time.Instant;
 import java.util.Map;
