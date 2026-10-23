@@ -6,7 +6,8 @@ public enum TokenClaim {
     EMAIL("email"),
     VERIFIED("verified"),
     ROLES("roles"),
-    STATUS("status");
+    STATUS("status"),
+    COMPLETED("completed");
 
     private final String claim;
 
